@@ -1,0 +1,21 @@
+.contenedorPersonajes {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: 5rem;
+}
+
+.cardPersonajes {
+    margin-right: 1.5rem;
+    width: 25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;}.tituloPersonajes {
+    color: red;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
+
+.textoPersonajes {
+    margin-top: 2rem;}
