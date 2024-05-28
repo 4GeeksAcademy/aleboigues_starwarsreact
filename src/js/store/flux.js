@@ -1,9 +1,12 @@
 import Characters from "../views/Characters";
+import StarShips from "../views/Starship";
 
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			Characters: []
+			Characters: [],
+			Planets: [],
+			StarShip: [],
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
@@ -12,9 +15,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 			loadSomeData: () => {
 				fetch("https://swapi.dev/api/people")
-					.then((response)=>response.json())
-					.then((data)=>setStore({Characters:data.results}))
-			
+					.then((response) => response.json())
+					.then((data) => setStore({ Characters: data.results }))
+
+				fetch("https://swapi.dev/api/planets")
+					.then((response) => response.json())
+					.then((data) => setStore({ Planets: data.results }))
+
+				fetch("https://swapi.dev/api/starships")
+					.then((response) => response.json())
+					.then((data) => setStore({ StarShip: data.results }))
+
 			},
 			changeColor: (index, color) => {
 				//get the store

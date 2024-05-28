@@ -18,14 +18,16 @@ const CharacterDetail = () => {
                     </div>                    
                     <div className="container-flex text-center">
                         <div className="row align-items-center col-10">
-                            <table class="table tablaPersonaje">                                <tbody>
+                            <table class="table tablaPersonaje">                                
+                            z<tbody>
                                 <tr>
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Año de nacimiento</th>
                                     <th scope="col">Género</th>
                                     <th scope="col">Altura</th>
                                     <th scope="col">Color de piel</th>
-                                    <th scope="col">Color de ojos</th>                                        <td>{store.Characters[params.characterid].name}</td>
+                                    <th scope="col">Color de ojos</th>                                        
+                                    <td>{store.Characters[params.characterid].name}</td>
                                     <td>{store.Characters[params.characterid].birth_year}</td>
                                     <td>{store.Characters[params.characterid].gender}</td>
                                     <td>{store.Characters[params.characterid].height}</td>

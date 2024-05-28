@@ -10,7 +10,9 @@
     margin-right: 1.5rem;
     width: 25rem;
     border: 1px solid #ccc;
-    border-radius: 5px;}.tituloPersonajes {
+    border-radius: 5px;}
+    
+.tituloPersonajes {
     color: red;
     margin-bottom: 2rem;
     margin-left: 5rem;
@@ -19,3 +21,54 @@
 
 .textoPersonajes {
     margin-top: 2rem;}
+
+.contenedorPlanets {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin-left: 5rem;
+    }
+    
+.cardPlanets {
+        margin-right: 1.5rem;
+        width: 25rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;}
+        
+.tituloPlanets {
+        color: red;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        margin-top: 8rem;
+    }
+    
+.textoPlanets {
+        margin-top: 2rem;
+    }
+
+.contenedorStarShip {
+            display: flex;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            margin-left: 5rem;
+        }
+        
+.cardStarShip {
+            margin-right: 1.5rem;
+            width: 25rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+            
+.tituloStarShip {
+            color: red;
+            margin-bottom: 2rem;
+            margin-left: 5rem;
+            margin-top: 8rem;
+        }
+        
+.textoStarShip {
+            margin-top: 2rem;
+        }
