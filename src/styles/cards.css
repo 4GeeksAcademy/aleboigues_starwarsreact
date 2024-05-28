@@ -10,7 +10,9 @@
     margin-right: 1.5rem;
     width: 25rem;
     border: 1px solid #ccc;
-    border-radius: 5px;}
+    border-radius: 5px;
+    
+}
     
 .tituloPersonajes {
     color: red;
@@ -34,7 +36,9 @@
         margin-right: 1.5rem;
         width: 25rem;
         border: 1px solid #ccc;
-        border-radius: 5px;}
+        border-radius: 5px;
+        
+    }
         
 .tituloPlanets {
         color: red;
@@ -60,6 +64,7 @@
             width: 25rem;
             border: 1px solid #ccc;
             border-radius: 5px;
+            
         }
             
 .tituloStarShip {

@@ -19,7 +19,7 @@ const StarShip = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Name: {item.name}</h5>
                                 <p className="card-text textoStarShip">model: {item.model}</p>
-                                <p className="card-text">manufacturer: {item.manufacturer}</p>
+                                <p className="card-text">MGLT: {item.MGLT}</p>
                                 <p className="card-text">length: {item.length}</p>
                                 <p className="card-text">crew: {item.crew}</p>
                                 <Link to={"/starshipdetail/" + item}>

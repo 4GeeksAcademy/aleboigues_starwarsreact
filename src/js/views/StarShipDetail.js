@@ -23,12 +23,12 @@ const StarShipDetail = () => {
                                     <tr>
                                         <th scope="col">Name</th>
                                         <th scope="col">Model</th>
-                                        <th scope="col">Manufacturer</th>
+                                        <th scope="col">MGLT</th>
                                         <th scope="col">Length</th>
                                         <th scope="col">Crew</th>
                                         <td>{store.StarShip[params.StarShipid].name}</td>
                                         <td>{store.StarShip[params.StarShipid].model}</td>
-                                        <td>{store.StarShip[params.StarShipid].manufacturer}</td>
+                                        <td>{store.StarShip[params.StarShipid].MGLT}</td>
                                         <td>{store.StarShip[params.StarShipid].length}</td>
                                         <td>{store.StarShip[params.StarShipid].crew}</td>
                                     </tr>
