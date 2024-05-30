@@ -22,7 +22,7 @@ const Planets = () => {
                                 <p className="card-text">Diameter: {item.diameter}</p>
                                 <p className="card-text">Gravity: {item.gravity}</p>
                                 <Link to={"/planetdetail/" + index}>
-                                    <button className="btn btn-primary">Más información</button>
+                                    <button className="btn btn-outline-primary d-flex justify-content-md-start">Learn More!</button>
                                 </Link>
                             </div>
                         </div>))}

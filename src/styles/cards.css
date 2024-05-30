@@ -6,6 +6,7 @@
     margin-left: 5rem;
 }
 
+
 .cardPersonajes {
     margin-right: 1.5rem;
     width: 25rem;
@@ -17,12 +18,13 @@
 .tituloPersonajes {
     color: red;
     margin-bottom: 2rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-top: 8rem;
 }
 
 .textoPersonajes {
     margin-top: 2rem;}
+
 
 .contenedorPlanets {
         display: flex;
@@ -77,3 +79,4 @@
 .textoStarShip {
             margin-top: 2rem;
         }
+

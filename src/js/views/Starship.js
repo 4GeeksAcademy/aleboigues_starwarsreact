@@ -23,7 +23,7 @@ const StarShip = () => {
                                 <p className="card-text">length: {item.length}</p>
                                 <p className="card-text">crew: {item.crew}</p>
                                 <Link to={"/starshipdetail/" + item}>
-                                    <button className="btn btn-primary">Más información</button>
+                                    <button className="btn btn-outline-primary d-flex justify-content-md-start">Learn More!</button>
                                 </Link>
                             </div>
                         </div>))}

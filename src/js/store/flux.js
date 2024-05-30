@@ -1,12 +1,14 @@
 import Characters from "../views/Characters";
 import StarShips from "../views/Starship";
 
+
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
 			Characters: [],
 			Planets: [],
 			StarShip: [],
+			Fav: [],
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
@@ -27,6 +29,18 @@ const getState = ({ getStore, getActions, setStore }) => {
 					.then((data) => setStore({ StarShip: data.results }))
 
 			},
+
+
+			favorito:(nombreFav)=>{
+
+				const store = getStore();
+				if(store.Fav.includes(nombreFav)){
+					setStore({Fav:store.Fav.filter((rep)=>rep!=nombreFav)});
+				} else {
+					setStore({Fav:[...store.Fav,nombreFav]})
+				}
+			},
+
 			changeColor: (index, color) => {
 				//get the store
 				const store = getStore();
