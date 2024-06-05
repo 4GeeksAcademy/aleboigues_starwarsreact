@@ -41,6 +41,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 				}
 			},
 
+			colorBoton: name => {
+				const store = getStore();
+				return store.Fav.includes(name);
+			},
+
 			changeColor: (index, color) => {
 				//get the store
 				const store = getStore();
